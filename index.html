@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card component</title>
+    <!-- favico -->
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <!-- tailwindcss  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#1ba1ad]">
+    <section 
+    style="background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('img/bg-pattern-top.svg') top -300px left -300px no-repeat ,url('img/bg-pattern-bottom.svg') bottom -300px right -350px no-repeat;">
+        <div class="h-screen mx-auto flex flex-col gap-6 max-w-lg justify-center items-center">
+            <div class="bg-white border border-gray-200 rounded-lg shadow overflow-hidden dark:bg-gray-800 hover:bg-gray-100">
+                <img class="" src="img/bg-pattern-card.svg" alt="">
+                <div class="flex justify-center items-center -mt-10">
+                    <img class="w-[100px] h-[100px] rounded-full border-white border-[8px] bg-clip-border" src="img/image-victor.jpg" alt="">
+                </div>
+                <div class="flex flex-col text-center">
+                    <div class="flex justify-center space-x-2 items-center">
+                        <h3 class="font-bold">Abdirahim Ali</h3>
+                        <span class="text-sm text-gray-500"> 26</span>
+                    </div>
+                    <div class="text-gray-500">Hargeisa</div>                    
+                </div>
+                <div class="flex justify-around py-10 text-center">
+                    <div class="facebook">
+                        <h2 class="font-bold">80K</h2>
+                        <span class="text-gray-500 leading-4">Followers</span>
+                    </div>
+                    <div class="twitter">
+                        <h2 class="font-bold">80K</h2>
+                        <span class="text-gray-500 leading-4">Likes</span>     
+                    </div>
+                    <div class="instagram">
+                        <h2 class="font-bold">1.4K</h2>
+                        <span class="text-gray-500 leading-4">Photos</span>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

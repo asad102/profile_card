@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profileCard {
+    background-image: url(src/img/bg-pattern-top.svg), url('src/img/bg-pattern-bottom.svg');
+}
