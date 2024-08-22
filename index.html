@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile card component</title>
-    <!-- favico -->
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
-    <!-- tailwindcss  -->
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,186&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body class="bg-[#1ba1ad]">
-    <section style="background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('img/bg-pattern-top.svg') top -300px left -300px no-repeat ,url('img/bg-pattern-bottom.svg') bottom -300px right -350px no-repeat;">
-        <div class="min-h-screen mx-auto flex flex-col gap-6 max-w-md justify-center items-center">
-            <div class="bg-white border border-gray-200 rounded-lg shadow overflow-hidden dark:bg-gray-800 hover:bg-gray-100">
-                <img class="w-full object-cover" src="img/bg-pattern-card.svg" alt="">
-                <div class="flex justify-center items-center -mt-10">
-                    <img class="w-[100px] h-[100px] rounded-full border-white border-[8px] bg-clip-border" src="img/image-victor.jpg" alt="">
+<body>
+    <main class="bg-Darkcyan font-Kumbh min-h-screen flex justify-center items-center text-center">
+        <article class="bg-White max-w-screen-max rounded-[25px]  shadow-cardshadow overflow-hidden ">
+            <img src="./assets/img/bg-pattern-card.svg" alt="" class=" ">
+            <div class="profile flex flex-col items-center">
+                <img src="./assets/img/image-victor.jpg" alt="" srcset="" class="w-24 h-24 rounded-full border-[5px] border-White -mt-12">
+            </div>
+            <div class="name flex gap-[9px] justify-center items-center mt-4">
+                <span class="text-blue-dark font-bold text-lg">Victor Crest</span>
+                <span class="text-blue-graylish text">26</span>
+            </div>
+            <p class="text-blue-graylish text-sm mt-2 mb-6">London</p>
+            <hr class="border-Darkgray text-Darkcyan bg-Darkcyan opacity-50">
+            <div class="flex justify-center gap-12 text-blue-dark py-5">
+                <div class="followers flex flex-col gap-1.5 ">
+                    <span class="font-bold text-lg">80K</span>
+                    <span class="text-[10px] tracking-widest">Followers</span>
                 </div>
-                <div class="flex flex-col text-center py-5">
-                    <div class="flex justify-center space-x-2 items-center">
-                        <h3 class="font-bold">Abdirahim Ali</h3>
-                        <span class="text-sm text-gray-500"> 26</span>
-                    </div>
-                    <div class="text-gray-500">Hargeisa</div>                    
+                <div class="Likes flex flex-col gap-1.5 ">
+                    <span class="font-bold text-lg">803K</span>
+                    <span class="text-[10px] tracking-widest">Likes</span>
                 </div>
-                <hr>
-                <div class="flex justify-around pb-10 pt-5 text-center">
-                  
-                    <div class="facebook">
-                        <h2 class="font-bold">80K</h2>
-                        <span class="text-gray-500 leading-4">Followers</span>
-                    </div>
-                    <div class="twitter">
-                        <h2 class="font-bold">80K</h2>
-                        <span class="text-gray-500 leading-4">Likes</span>     
-                    </div>
-                    <div class="instagram">
-                        <h2 class="font-bold">1.4K</h2>
-                        <span class="text-gray-500 leading-4">Photos</span>     
-                    </div>
+                <div class="Photos flex flex-col gap-1.5 ">
+                    <span class="font-bold text-lg">1.4K</span>
+                    <span class="text-[10px] tracking-widest">Photos</span>
                 </div>
             </div>
-        </div>
-    </section>
+        </article>
+    </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
 </body>
 </html>
